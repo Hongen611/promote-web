@@ -3,7 +3,8 @@
   align-items:center;
   justify-content:space-between;
   padding:130px 100px;
-  background: linear-gradient(to bottom, #88DFFA, #A667C3);
+
+  min-height: 100vh;
 }
 
 .landing-all{
@@ -66,4 +67,14 @@
 .landing-right img{
   width:550px;
   border-radius:10px;
+}
+
+.learn-move{
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.learn:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }

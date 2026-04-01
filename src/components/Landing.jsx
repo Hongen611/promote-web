@@ -24,7 +24,17 @@ function Landing() {
 
           <div className="landing-buttons">
             <button className="download">Download Now</button>
-            <button className="learn">Learn More →</button>
+            <button className="learn"
+              onClick={() => {
+                setTimeout(() => {
+                    const el = document.getElementById("features");
+                    if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
+                    }
+                }, 100); // 👈 small delay
+                }}
+            >
+            Learn More →</button>
           </div>
 
         </div>
