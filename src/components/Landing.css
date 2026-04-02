@@ -78,3 +78,28 @@
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .landing {
+    padding: 120px 20px;
+    text-align: center;
+  }
+
+  .landing-all {
+    flex-direction: column;
+  }
+
+  .landing h1 {
+    font-size: 36px;
+  }
+
+  .landing-buttons {
+    justify-content: center;
+  }
+
+  .landing-right img {
+    width: 100%;
+    max-width: 300px;
+  }
+}

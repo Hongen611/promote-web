@@ -85,3 +85,28 @@
     max-width: 250px;
   }
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .feature-details {
+    padding: 80px 20px;
+  }
+
+  .detail-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .detail-section.reverse {
+    flex-direction: column;
+  }
+
+  .detail-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .multi-image {
+    flex-direction: column;
+  }
+}

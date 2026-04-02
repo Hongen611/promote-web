@@ -103,3 +103,14 @@
 .yellow{
   background:#fff9e5;
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .features {
+    padding: 80px 20px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
